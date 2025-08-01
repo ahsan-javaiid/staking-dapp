@@ -5,7 +5,7 @@
             <div class="staking-item__wrap-info">
                 <div class="staking-item__wrap-info-name">
                     <h4>{{ item.name }}</h4>
-                    <p v-if="item.apr">{{ (parseFloat(item.apr) * 100).toFixed(2) }}% APR</p>
+                    <p v-if="item.apr">{{ (parseFloat(item.apr)).toFixed(2) }}% APR</p>
                 </div>
 
                 <div class="staking-item__wrap-info-price">
